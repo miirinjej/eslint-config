@@ -1,0 +1,32 @@
+{
+  "name": "@miirinjej/eslint-config",
+  "version": "1.0.0",
+  "description": "Sharable eslint config for JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miirinjej/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "Radmir Nabiullin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miirinjej/eslint-config/issues"
+  },
+  "homepage": "https://github.com/miirinjej/eslint-config#readme",
+  "dependencies": {
+    "confusing-browser-globals": "^1.0.10",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-unicorn": "^23.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.14.0"
+  }
+}
