@@ -818,7 +818,21 @@ module.exports = {
     'unicorn/prefer-text-content': 'error',
     'unicorn/prefer-trim-start-end': 'error',
     'unicorn/prefer-type-error': 'error',
-    'unicorn/prevent-abbreviations': 'error',
+    'unicorn/prevent-abbreviations': [
+      'error',
+      {
+        whitelist: {
+          // `i, j, k` used in for loops
+          // `m, n` used in for matrix dimensions
+          // do not use these single-letter variable names in other cases
+          i: true,
+          j: true,
+          k: true,
+          m: true,
+          n: true,
+        },
+      },
+    ],
     'unicorn/string-content': 'off',
     'unicorn/throw-new-error': 'error',
   },
