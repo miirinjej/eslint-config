@@ -523,6 +523,8 @@ module.exports = {
       { blankLine: 'always', prev: '*', next: ['const', 'let'] },
       { blankLine: 'always', prev: ['const', 'let'], next: '*' },
       { blankLine: 'any', prev: ['const', 'let'], next: ['const', 'let'] },
+      { blankLine: 'always', prev: '*', next: ['multiline-const', 'multiline-let'] },
+      { blankLine: 'always', prev: ['multiline-const', 'multiline-let'], next: '*' },
       { blankLine: 'always', prev: '*', next: 'expression' },
       { blankLine: 'always', prev: 'expression', next: '*' },
       { blankLine: 'any', prev: 'expression', next: 'expression' },
