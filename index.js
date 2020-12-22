@@ -35,6 +35,10 @@ module.exports = {
       'vuex',
     ],
     'import/resolver': {
+      alias: {
+        map: [['@', './src']],
+        extensions: ['.js', '.json', '.mjs'],
+      },
       node: {
         extensions: ['.js', '.json', '.mjs'],
       },
