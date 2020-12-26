@@ -781,6 +781,7 @@ module.exports = {
     'unicorn/no-for-loop': 'off',
     'unicorn/no-hex-escape': 'error',
     'unicorn/no-keyword-prefix': 'off',
+    'unicorn/no-lonely-if': 'error',
     'unicorn/no-nested-ternary': 'error',
     'unicorn/no-new-buffer': 'error',
     'unicorn/no-null': 'off',
