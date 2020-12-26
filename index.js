@@ -824,16 +824,10 @@ module.exports = {
     'unicorn/prevent-abbreviations': [
       'error',
       {
-        whitelist: {
-          // `i, j, k` used in for loops
-          // `m, n` used in for matrix dimensions
-          // do not use these single-letter variable names in other cases
-          i: true,
-          j: true,
-          k: true,
-          m: true,
-          n: true,
-        },
+        // `i, j, k` used in for loops
+        // `m, n` used in for matrix dimensions
+        // do not use these single-letter variable names in other cases
+        ignore: ['i', 'j', 'k', 'm', 'n'],
       },
     ],
     'unicorn/string-content': 'off',
