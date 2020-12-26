@@ -764,7 +764,7 @@ module.exports = {
      */
     'unicorn/better-regex': 'error',
     'unicorn/catch-error-name': 'error',
-    'unicorn/consistent-function-scoping': 'error',
+    'unicorn/consistent-function-scoping': ['error', { checkArrowFunctions: false }],
     'unicorn/custom-error-definition': 'error',
     'unicorn/empty-brace-spaces': 'error',
     'unicorn/error-message': 'error',
