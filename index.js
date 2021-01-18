@@ -13,10 +13,11 @@ module.exports = {
       objectLiteralDuplicateProperties: false,
     },
     ecmaVersion: 2021,
-    parser: 'babel-eslint',
+    parser: '@babel/eslint-parser',
     sourceType: 'module',
   },
   plugins: [
+    '@babel',
     'import',
     'promise',
     'unicorn',
