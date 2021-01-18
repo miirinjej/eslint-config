@@ -401,6 +401,7 @@ module.exports = {
         allowObjectStart: true,
         allowArrayStart: true,
         allowClassStart: true,
+        ignorePattern: 'webpack',
       },
     ],
     'lines-between-class-members': [
