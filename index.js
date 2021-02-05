@@ -470,7 +470,7 @@ module.exports = {
     'no-multi-assign': 'error',
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],
     'no-negated-condition': 'error',
-    'no-nested-ternary': 'off', // delegate to eslint-plugin-unicorn
+    'no-nested-ternary': 'error',
     'no-new-object': 'error',
     'no-plusplus': 'error',
     'no-restricted-syntax': [
@@ -785,7 +785,7 @@ module.exports = {
     'unicorn/no-hex-escape': 'error',
     'unicorn/no-keyword-prefix': 'off',
     'unicorn/no-lonely-if': 'error',
-    'unicorn/no-nested-ternary': 'error',
+    'unicorn/no-nested-ternary': 'off', // delegate to 'no-nested-ternary' rule
     'unicorn/no-new-buffer': 'error',
     'unicorn/no-null': 'off',
     'unicorn/no-object-as-default-parameter': 'error',
