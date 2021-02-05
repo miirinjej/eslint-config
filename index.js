@@ -473,15 +473,7 @@ module.exports = {
     'no-nested-ternary': 'error',
     'no-new-object': 'error',
     'no-plusplus': 'error',
-    'no-restricted-syntax': [
-      'error',
-      {
-        selector: 'ForOfStatement',
-        message: 'iterators/generators require regenerator-runtime.'
-          + ' Separately, loops should be avoided in favor of array iterations'
-          + ' https://github.com/airbnb/javascript#iterators--nope',
-      },
-    ],
+    'no-restricted-syntax': ['error'],
     'no-tabs': 'error',
     'no-ternary': 'off',
     'no-trailing-spaces': [
