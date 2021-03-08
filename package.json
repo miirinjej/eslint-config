@@ -26,7 +26,7 @@
     "confusing-browser-globals": "^1.0.10",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-unicorn": "^24.0.0"
   },
   "peerDependencies": {
