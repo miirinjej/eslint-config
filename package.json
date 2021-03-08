@@ -32,6 +32,6 @@
   "peerDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
-    "eslint": "^7.14.0"
+    "eslint": "^7.21.0"
   }
 }

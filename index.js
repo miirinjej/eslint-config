@@ -103,6 +103,7 @@ module.exports = {
     'no-unreachable-loop': 'error',
     'no-unsafe-finally': 'error',
     'no-unsafe-negation': 'error',
+    'no-unsafe-optional-chaining': 'error',
     'no-useless-backreference': 'error',
     'require-atomic-updates': 'error',
     'use-isnan': [
@@ -171,6 +172,7 @@ module.exports = {
     'no-new': 'error',
     'no-new-func': 'error',
     'no-new-wrappers': 'error',
+    'no-nonoctal-decimal-escape': 'error',
     'no-octal': 'error',
     'no-octal-escape': 'error',
     'no-param-reassign': ['error', { props: false }],
@@ -221,6 +223,7 @@ module.exports = {
         allowShortCircuit: false,
         allowTernary: false,
         allowTaggedTemplates: false,
+        enforceForJSX: false,
       },
     ],
     'no-unused-labels': 'error',
