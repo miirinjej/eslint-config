@@ -22,7 +22,7 @@
   "homepage": "https://github.com/miirinjej/eslint-config#readme",
   "dependencies": {
     "@babel/eslint-parser": "^7.13.8",
-    "@babel/eslint-plugin": "^7.12.1",
+    "@babel/eslint-plugin": "^7.13.0",
     "confusing-browser-globals": "^1.0.10",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-import": "^2.22.1",
