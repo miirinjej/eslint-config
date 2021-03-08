@@ -1,6 +1,6 @@
 {
   "name": "@miirinjej/eslint-config",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Sharable eslint config for JavaScript",
   "main": "index.js",
   "scripts": {
